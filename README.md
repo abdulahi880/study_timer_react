@@ -1,8 +1,33 @@
-# React + Vite
+# Study Timer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a study timer built with React.js and styled using Tailwind CSS. It provides a simple interface for tracking study and break periods effectively.
 
-Currently, two official plugins are available:
+## Features
+- **Timer Functionality:** Includes start, pause, and reset functionalities.
+- **Customizable Timer:** Users can set study and break durations according to their preferences.
+- **Visual Feedback:** Changes in color or animations indicate study and break periods.
+- **Sound Notifications:** Optional audible alerts for timer start and end events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React.js:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **React Hooks:** Used for managing state and lifecycle events.
+- **npm:** Node package manager for installing project dependencies.
+
+
+## Installation
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+https://github.com/abdulahi880/study_timer_react
+
+# Navigate into the project directory
+cd your-repository
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
